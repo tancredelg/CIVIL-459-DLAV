@@ -5,6 +5,7 @@ description = "My resources for EPFL's Deep Learning for Autonomous Vehicles cou
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "einops>=0.8.2",
     "imageio>=2.37.3",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.8",
@@ -12,6 +13,7 @@ dependencies = [
     "scipy>=1.17.1",
     "torch>=2.10.0",
     "torchvision>=0.25.0",
+    "tqdm>=4.66.5",
 ]
 
 [[tool.uv.index]]
